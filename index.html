@@ -161,6 +161,35 @@
             </div>
   
           </section>
+
+           <!-- COMEÇO CONTATO -->
+
+           <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+              <div class="contato-left"></div>
+              <div class="contato-right">
+                <h1>Contato</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                  <input type="hidden" name="accessKey" value="2e4f3ab9-f947-4741-b21e-53db4b30104c">
+                  <div class="input-group">
+                    <input type="text" name="name" class="field" id="name">
+                    <label for="name"  class="field-label">Nome</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" name="email" class="field" id="email">
+                    <label for="email" class="field-label">E-mail</label>
+                  </div>
+                  <div class="input-group">
+                    <textarea class="field" name="message" id="mensagem"></textarea>
+                    <label for="mensagem" class="field-label">Mensagem</label>
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="https://google.com.br">
+                  </div>
+                  <button type="submit" class="btn btn-submit">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </section>
   
 	</div>
 
